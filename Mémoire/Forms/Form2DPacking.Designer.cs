@@ -200,7 +200,7 @@
             this.btnEdit.Location = new System.Drawing.Point(588, 42);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 32);
-            this.btnEdit.TabIndex = 42;
+            this.btnEdit.TabIndex = 4;
             this.btnEdit.Text = "Edit";
             this.btnEdit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEdit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -221,7 +221,7 @@
             this.btnDelete.Location = new System.Drawing.Point(684, 42);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(88, 32);
-            this.btnDelete.TabIndex = 41;
+            this.btnDelete.TabIndex = 5;
             this.btnDelete.Text = "Delete";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -242,7 +242,7 @@
             this.btnAdd.Location = new System.Drawing.Point(485, 42);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 32);
-            this.btnAdd.TabIndex = 40;
+            this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Add";
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -280,7 +280,7 @@
             this.txtQuantity.Location = new System.Drawing.Point(359, 36);
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(100, 38);
-            this.txtQuantity.TabIndex = 37;
+            this.txtQuantity.TabIndex = 2;
             this.txtQuantity.TextChanged += new System.EventHandler(this.txtQuantity_TextChanged);
             this.txtQuantity.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtQuantity_KeyPress);
             // 
@@ -293,7 +293,7 @@
             this.txtObjectWidth.Location = new System.Drawing.Point(108, 34);
             this.txtObjectWidth.Name = "txtObjectWidth";
             this.txtObjectWidth.Size = new System.Drawing.Size(135, 38);
-            this.txtObjectWidth.TabIndex = 36;
+            this.txtObjectWidth.TabIndex = 0;
             this.txtObjectWidth.TextChanged += new System.EventHandler(this.txtObjectWidth_TextChanged);
             this.txtObjectWidth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtObjectWidth_KeyPress);
             // 
@@ -354,7 +354,7 @@
             this.txtObjectHeight.Location = new System.Drawing.Point(108, 78);
             this.txtObjectHeight.Name = "txtObjectHeight";
             this.txtObjectHeight.Size = new System.Drawing.Size(135, 38);
-            this.txtObjectHeight.TabIndex = 46;
+            this.txtObjectHeight.TabIndex = 1;
             this.txtObjectHeight.TextChanged += new System.EventHandler(this.txtObjectHeight_TextChanged);
             this.txtObjectHeight.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtObjectHeight_KeyPress);
             // 

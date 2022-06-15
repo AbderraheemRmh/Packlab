@@ -33,7 +33,7 @@ namespace Mémoire.Forms
             lblMaxGeneration.Text = _2DPacking.numberOfGenerations.ToString();
             ObjectsGroupeTable.Columns.Add("Object width", Type.GetType("System.Int32"));
             ObjectsGroupeTable.Columns.Add("Object height", Type.GetType("System.Int32"));
-            ObjectsGroupeTable.Columns.Add("Quentity", Type.GetType("System.Int32"));
+            ObjectsGroupeTable.Columns.Add("Quantity", Type.GetType("System.Int32"));
             gridObjects.DataSource = ObjectsGroupeTable;
             lblObjectCreated.Text = ObjectCreated.ToString();
         }
